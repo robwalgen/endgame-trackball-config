@@ -75,8 +75,8 @@
 			display-name = "Scroll";
 			DECLARE_ENCODERS;
 			bindings = <
-			    &scrlsens P2SM_INC 1  &scrlsens P2SM_DEC 1
-			    &trans                &trans
+			    &scrlsens P2SM_DEC 1  &scrlsens P2SM_INC 1
+			    &to LAYER_DEFAULT     &trans
 			    &trans                &rrl 1
 			    &sens P2SM_DEC 1      &sens P2SM_INC 1
 
