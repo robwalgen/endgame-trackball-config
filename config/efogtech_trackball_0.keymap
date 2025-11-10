@@ -38,8 +38,8 @@
 				&ltm LAYER_SNIPE MB4  			&kp ESC
 
 				// rotary encoders
-				&kp C_VOL_UP              &mkp SCRL_LEFT
-				&kp C_VOL_DN              &mkp SCRL_RIGHT
+				&kp C_VOL_UP              &msc SCRL_LEFT
+				&kp C_VOL_DN              &msc SCRL_RIGHT
 			>;
 		};
 
@@ -80,8 +80,8 @@
 			    &trans                &rrl 1
 			    &sens P2SM_DEC 1      &sens P2SM_INC 1
 
-				&sens P2SM_DEC 1    &scrlsens P2SM_INC 1
-				&sens P2SM_INC 1    &scrlsens P2SM_DEC 1
+				&rotenc_sens P2SM_DEC 1    &scrlsens P2SM_INC 1
+				&rotenc_sens P2SM_INC 1    &scrlsens P2SM_DEC 1
 			>;
 		};
 
