@@ -80,8 +80,8 @@
 			    &trans                &rrl 1
 			    &sens P2SM_DEC 1      &sens P2SM_INC 1
 
-				&rotenc_sens P2SM_DEC 1    &scrlsens P2SM_INC 1
-				&rotenc_sens P2SM_INC 1    &scrlsens P2SM_DEC 1
+				&scrlsens P2SM_DEC 1    &scrlsens P2SM_INC 1
+				&scrlsens P2SM_INC 1    &scrlsens P2SM_DEC 1
 			>;
 		};
 
