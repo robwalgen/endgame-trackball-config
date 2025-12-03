@@ -38,8 +38,8 @@
 				&ltm LAYER_SNIPE MB4  			&kp ESC
 
 				// rotary encoders
-				&kp C_VOL_UP              &msc SCRL_LEFT
-				&kp C_VOL_DN              &msc SCRL_RIGHT
+				&kp C_VOL_UP              &msc MOVE_LEFT
+				&kp C_VOL_DN              &msc MOVE_RIGHT
 			>;
 		};
 
