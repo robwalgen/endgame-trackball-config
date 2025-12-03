@@ -38,8 +38,8 @@
 				&ltm LAYER_SNIPE MB4  			&kp ESC
 
 				// rotary encoders
-				&kp C_VOL_UP              &msc MOVE_LEFT
-				&kp C_VOL_DN              &msc MOVE_RIGHT
+				&kp C_VOL_UP              &msc MOVE_X(-5)
+				&kp C_VOL_DN              &msc MOVE_X(5)
 			>;
 		};
 
@@ -75,7 +75,7 @@
 			display-name = "Scroll";
 			DECLARE_ENCODERS;
 			bindings = <
-			    &scrlsens P2SM_DEC 1  &scrlsens P2SM_INC 1
+			    &scrlsens_nowrap P2SM_DEC 1  &scrlsens_nowrap P2SM_INC 1
 			    &to LAYER_DEFAULT     &trans
 			    &trans                &rrl 1
 			    &sens P2SM_DEC 1      &sens P2SM_INC 1
